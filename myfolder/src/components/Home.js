@@ -7,8 +7,10 @@ import '../App.css';
 class Home extends Component {
     render() {
         return (
-       <div className="App">
-           <h1>Hello world, this is Zeugma Spa Home Page</h1>
+       <div>
+                <div className="home-page">
+                    <h1>The home page</h1>
+                </div>
        </div>
         )
     }

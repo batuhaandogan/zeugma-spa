@@ -11,21 +11,21 @@ class Navbar extends Component {
     return (
       <div>
  
-<navbar className="the-navbar">
-<ul>
+<div className="the-navbar">
+<ul className="main-ul">
  
-  <li >
-  <Link to="/">Home</Link>
+  <li className="the-li">
+  <Link id="the-link" to="/">Home</Link>
   </li>
-  <li >
+  <li className="the-li" >
 
-    <Link to="/About">About</Link>
+    <Link id="the-link" to="/About">About</Link>
   </li>
-  <li >
-    <Link to="/">Contact</Link>
+  <li className="the-li" >
+    <Link id="the-link" to="/">Contact</Link>
   </li>
 </ul>
-</navbar>
+</div>
 
 
 
