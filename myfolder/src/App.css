@@ -8,7 +8,7 @@
    left: 0;
    z-index: 1000;
    width: 100vw;
-   overflow: hidden;
+   /* overflow: hidden; */
 
 }
 
@@ -41,20 +41,21 @@
   align-items: center;
   transition: all 400ms ease-in-out;
   cursor: pointer;
+  font-family: 'Titillium Web', sans-serif;
 
   
 }
 
 .main-ul li a {
   text-decoration: none;
-  color: blue;
+  color: white;
   letter-spacing: 2px;
   font-size: 1.5rem;
   /* margin-left: 370px; */
 }
 
 .main-ul li:hover {
-  color: white;
+  color: rgb(138, 138, 138);
   background: rgb(197, 179, 179);
 }
 
