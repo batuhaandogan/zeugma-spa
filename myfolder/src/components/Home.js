@@ -11,8 +11,14 @@ class Home extends Component {
            <head>
            <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
            </head>
-                <div className="home-page">
-                    <h1>The home page</h1>
+                <div>
+                {/* className="home-page" */}
+                <slider>
+                    <slide><p>Slide 1</p></slide>
+                    <slide><p>Slide 2</p></slide>
+                    <slide><p>Slide 3</p></slide>
+                    <slide><p>Slide 3</p></slide>
+                </slider>
                 </div>
        </div>
         )
