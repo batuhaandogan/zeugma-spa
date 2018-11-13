@@ -255,15 +255,41 @@ h3 {
 
 .waxing-class h1 {
     font-family: 'Courgette', cursive;
-    /* position: absolute; */
       color: #e80a89; 
-      padding-right: 300px;
-      padding-top: 200px;
+      margin-top: 100px;
       
 }
 
 .waxing-class {
 /* position: aboslute; */
+/* /* height: 100%; */
+width: 80%;
+margin-left: 10%;
+ float: left;
+}
 
 
+.first-waxing > div > p {
+  margin: 8%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.first-waxing {
+  float: left;
+  width:  50%;
+  height: 100%;
+}
+
+
+.second-waxing {
+  float: right;
+  width:  50%;
+  height: 100%;
+}
+
+.second-waxing > div > p {
+  margin: 8%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
 }

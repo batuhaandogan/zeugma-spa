@@ -115,20 +115,100 @@ class Home extends Component {
                                 A customized mask is applied to clarify and soften <br/>
                                 the skin while providing a deep moisturizing treatment
                              </p>
-                                </div>
-
-
-
-                            
-            
+                                </div>  
                         </div>
-                    </div>
-                </div>
 
-<                               div className="waxing-class">
+
+
+                    </div>
+
+                </div>
+                    <div className="waxing-class">
                             <h1>Waxing Services</h1>
-                                   </div>
+
+                    <div className="first-waxing">
+
+                            <div>
+                                <p>
+                                        Full Face Waxing / $45
+                                </p>
+                            </div>
+
+                              <div>
+                                <p>
+                                        Brow Waxing / $15
+                                </p>
+                            </div>
+
+                               <div>
+                                <p>
+                                        Lip Waxing / $10
+                                </p>
+                            </div>
+
+                             <div>
+                                <p>
+                                        Chin Waxing / $10
+                                </p>
+                            </div>
+
+                             <div>
+                                <p>
+                                        Forearm Waxing / $20
+                                </p>
+                            </div>
+
+                             <div>
+                                <p>
+                                        Bikini Waxing / $55
+                                </p>
+                            </div>
+                    </div>
+
+                    <div className="second-waxing">
+
+                         <div>
+                                <p>
+                                        Full Arm Waxing / $45
+                                </p>
+                            </div>
+
+                            <div>
+                                <p>
+                                        Underarm Waxing / $15
+                                </p>
+                            </div>
+
+                            <div>
+                                <p>
+                                        Lower Leg Waxing / $40
+                                </p>
+                            </div>
+
+                            <div>
+                                <p>
+                                        Full Leg Waxing / $70
+                                </p>
+                            </div>
+
+                            <div>
+                                <p>
+                                        Brazilian Waxing / $75
+                                </p>
+                            </div>
+
+                            <div>
+                                <p>
+                                        Back Waxing / $50
+                                </p>
+                            </div>
+
+
+                    </div>
+
+                    </div>
                          
+     
 
        </div>
         )
