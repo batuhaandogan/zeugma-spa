@@ -73,7 +73,7 @@
 
 
 
-
+/* 
 slider {
     display: block;
     width: 100%;
@@ -81,16 +81,15 @@ slider {
     background-color: #1f1f1f;
     overflow: hidden;
     position: absolute;
-}
+} */
 
 
 slider > * {
   position: absolute;
   display: block;
-  height: 100%;
+  height: 70%;
   width: 100%;
-  background: #1f1f1f;
-  animation: slide 12s infinite;
+  animation: slide 10s infinite;
   overflow: hidden;
 }
 
@@ -98,7 +97,7 @@ slider > * {
 slide:nth-child(1) {
   left: 0%;
   animation-delay: -1;
-  background-image: url('./images/aroundtheworld.jpg');
+  background-image: url('./images/spa.jpg');
   background-size: cover;
   background-position: center;
 
@@ -106,14 +105,14 @@ slide:nth-child(1) {
 
 slide:nth-child(2) {
   animation-delay: 2;
-  background-image: url('./images/pusula.jpg');
+  background-image: url('./images/kugu.jpg');
   background-size: cover;
   background-position: center;
   
 }
 slide:nth-child(3) {
   animation-delay: 5;
-  background-image: url('./images/sick.jpg');
+  background-image: url('./images/tas.jpg');
   background-size: cover;
   background-position: center;
   
@@ -121,7 +120,7 @@ slide:nth-child(3) {
 slide:nth-child(4) {
   left: 0%;
   animation-delay: 8s;
-  background-image: url('./images/spa.jpg');
+  background-image: url('./images/pink.jpg');
   background-size: cover;
   background-position: center; 
 }
@@ -160,4 +159,53 @@ slide p {
      left: 100%;
      width: 0%;
    }
+}
+
+
+.absolute-class {
+  padding-top: 45%;
+}
+
+
+hr {
+  width: 48vw;
+  text-align: center;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+.absolute-class > h2 {
+text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  color: gray;
+  padding-top: 50px;
+}
+
+
+.absolute-class > h1 {
+  color: rgb(206, 122, 136);
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+#other-hr {
+margin-top: 30px;
+}
+
+
+.facial-treatments {
+  margin: 10%;
+
+}
+
+
+.facial-treatments > h1 {
+  font-family: 'Courgette', cursive;
+
+    color: #e80a89; 
 }
