@@ -30,6 +30,10 @@ class Home extends Component {
                     <div className="facial-treatments">
                         <h1>Facial Beauty Treatments</h1>
 
+
+
+
+
                         <div style={{float: "left"}} className="display-them">
                             <h3>European Signature Facial $95/$115</h3>
                             <p>Deep pore, cleansing, restoring and relaxing facials.<br/>
@@ -46,13 +50,30 @@ class Home extends Component {
 
                                  <div>
                                 <h3>Zeugma Dead Sea Mud $85</h3>
-                               <p>
+                                     <p>
                                With it's high density of mineral salts, the Dead <br/>
                                Sea Mud is healing for the skin. It benefits skin <br/>
                                problems such as Eczema, Psoriasis and Acne.
+                                     </p>
+                                 </div>
+
+                                   <div>
+                                <h3>Gentelmen's Facial</h3>
+                               <p>
+                               Gentlemen's Facial. This is a relaxing, soothing <br/>
+                               treatment for skin that may be irritated from shaving,<br/>
+                                the environment, or everyday stress. Deep pore cleansing,<br/>
+                                 a light facial massage and masque will leave skin with<br/>
+                                  an even tone, smooth texture and feeling completely refreshed.<br/>
                                </p>
+                                 </div>
+
                         </div>
-                        </div>
+
+
+
+
+
 
                         <div  style={{float: "right"}} className="display-them-two">
                             <h3>Redness Treatment Facial $110</h3>
@@ -72,9 +93,42 @@ class Home extends Component {
                                  rated Skin Care provider brand of Germany by Babor.
                                 </p>
                             </div>
+
+                                 <div id="put-it">
+                                <h3>Collagen Biomatrix Face by BABOR $135</h3>
+                             <p>
+                             Biomatrix Collagen Firming Facial. Skin Type: dry, <br/>
+                             dehydrated, sensitive, stress skin and Loss of Firmness. <br/>
+                             Contains 99% Collagen. A special fleece mask with natural <br/>
+                             collagen fibers to strengthen the connective tissue and <br/>
+                             ensure smooth, youthfully plump skin.
+                             </p>
+                                </div>
+
+                                  <div>
+                                <h3>Back Facial $95</h3>
+                             <p>
+                             Back facials are a skin treatment that is offered<br/>
+                              to all spa clients, including teens, men and women.<br/>
+                               The techniques used in a back facial are very similar <br/>
+                               to those applied in a regular facial treatment. ...<br/>
+                                A customized mask is applied to clarify and soften <br/>
+                                the skin while providing a deep moisturizing treatment
+                             </p>
+                                </div>
+
+
+
+                            
+            
                         </div>
                     </div>
                 </div>
+
+<                               div className="waxing-class">
+                            <h1>Waxing Services</h1>
+                                   </div>
+                         
 
        </div>
         )

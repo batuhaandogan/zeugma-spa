@@ -216,8 +216,54 @@ margin-top: 30px;
 
 .display-them > div {
  margin-top: 90px;
+
+}
+
+.display-them > p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+
+}
+
+
+#put-it {
+  margin-top: 102px;
 }
 
 
 
+.display-them-two > div > p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
 
+.display-them > div > p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.display-them-two p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+}
+
+
+h3 {
+  color: rgb(0, 238, 255);
+}
+
+
+.waxing-class h1 {
+    font-family: 'Courgette', cursive;
+    /* position: absolute; */
+      color: #e80a89; 
+      padding-right: 300px;
+      padding-top: 200px;
+      
+}
+
+.waxing-class {
+/* position: aboslute; */
+
+
+}
