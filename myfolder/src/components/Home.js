@@ -17,7 +17,7 @@ class Home extends Component {
                     <slide><p>Slide 1</p></slide>
                     <slide><p>Slide 2</p></slide>
                     <slide><p>Slide 3</p></slide>
-                    <slide><p>Slide 3</p></slide>
+                    <slide><p>Slide 4</p></slide>
                 </slider>
                 </div>
        </div>
