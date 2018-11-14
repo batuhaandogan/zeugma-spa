@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
 import { Slide } from 'react-slideshow-image';
-
+import pink from '../images/pink.jpg';
+import kugu from '../images/kugu.jpg';
+import spa from '../images/spa.jpg';
+import tas from '../images/tas.jpg';
 
 
 
@@ -12,14 +15,21 @@ class Home extends Component {
            <head>
            <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
            </head>
-                <div>
+                <div id="slider">
                 {/* className="home-page" */}
-                <slider>
+                {/* <slider>
                     <slide><p>Slide 1</p></slide>
                     <slide><p>Slide 2</p></slide>
                     <slide><p>Slide 3</p></slide>
                     <slide><p>Scroll down for more information</p></slide>
-                </slider>
+                </slider> */}
+                <figure>
+                    <img className="the-img-tag" src={pink}/>
+                    <img className="the-img-tag" src={kugu} />
+                    <img className="the-img-tag" src={spa} />
+                    <img className="the-img-tag" src={tas} />
+
+                </figure>
                 </div>
 
                 <div className="absolute-class container">
