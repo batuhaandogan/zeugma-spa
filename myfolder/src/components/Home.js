@@ -211,6 +211,39 @@ class Home extends Component {
 
 
                          <div className="zeugma-location">
+
+                         <div className="hours-working">
+                             <p id="the-hours">
+                                 HOURS
+                             </p>
+                             <p>
+                                <strong>Monday-Friday</strong><br/> 10am - 5pm
+                             </p>
+                             <p>
+                                 <strong>Saturday</strong><br/>10am - 5pm
+                                 </p>
+                                 <p>
+                                <strong>Sunday</strong><br/> Open
+                             </p>
+                         </div>
+
+                         <div className="contact-info">
+                                <p id="the-hours">CONTACT</p>
+
+                                <p>
+                                <a href="tel:1-562-867-5309">1-562-867-5309</a>
+                                </p>
+
+                                <p>galinakb@hotmail.com</p>
+                         </div>
+
+                            <div className="location-info">
+                                <p id="the-hours">LOCATION</p>
+
+                                <p>5th Avenue</p>
+
+                                <p>800 5th Avenue South Unit 201#2, Naples, FL 34102</p>
+                            </div>
                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.6553873008684!2d-81.79686567803728!3d26.142724671783515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dae10060afe8af%3A0xdbae2dee2f1a00a5!2sZeugma+Spa!5e0!3m2!1sen!2sus!4v1542152311596"></iframe>
                          </div>   
      

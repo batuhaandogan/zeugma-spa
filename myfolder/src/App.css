@@ -297,8 +297,49 @@ margin-left: 10%;
 
 
 .zeugma-location > iframe {
-width: 800px;
-height: 450px;
+width: 1000px;
+height: 300px;
 align-items: center;
-margin-left: 20%;
+margin-left: 15%;
+position: abolsute;
+margin-top: 80px;
+margin-bottom: 50px;
+}
+
+
+.zeugma-location {
+   background-color: #ddd;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   margin-top: 1200px;
+}
+
+
+.hours-working {
+ display: flex;
+ justify-content: space-around;
+ margin-top: 50px;
+}
+
+
+#the-hours {
+  color: #e80a89;
+  font-size: 30px;
+}
+
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20%;
+  margin-top: 3%;
+}
+
+
+.location-info {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-top: 3%;
 }
