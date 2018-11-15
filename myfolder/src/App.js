@@ -3,7 +3,8 @@ import './App.css';
 import {Switch , Route} from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Home from './components/Home'
-// import About from './components/About'
+import Main from "./components/Main"
+
 
 class App extends Component {
   render() {
@@ -12,7 +13,8 @@ class App extends Component {
 <Navbar />
         
  <Switch>
-   <Route exact path='/' component={Home} />
+   <Route exact path='/' component={Main} />
+   <Route exact path='/Home' component={Home} />
  </Switch>
 
 
