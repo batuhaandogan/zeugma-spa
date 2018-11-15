@@ -48,7 +48,7 @@
 
 .main-ul li a {
   text-decoration: none;
-  color: black;
+  color: orange;
   letter-spacing: 2px;
   font-size: 1.5rem;
   /* margin-left: 370px; */
@@ -163,7 +163,7 @@ slide p {
 
 
 .absolute-class {
-  padding-top: 45%;
+  padding-top: 5%;
   /* display: flex; */
   /* align-items: column; */
 }
@@ -385,17 +385,22 @@ margin-bottom: 50px;
 
 #slider {
   overflow: hidden;
+  
 }
 
 
 #slider figure img {
   width: 20%;
+  height: 600px;
+  background-size: cover;
   float: left;
+  box-shadow: 10px 10px 5px black;
 }
 
 #slider figure {
   position: relative;
   width: 500%;
+  height: 70%;
   margin: 0;
   left: 0;
   text-align: left;
