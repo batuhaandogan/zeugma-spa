@@ -10,16 +10,47 @@ import tas from '../images/tas.jpg';
 class Main extends Component {
     render() {
         return (
+            
             <div>
-                <div className="the-main-slides">
+                  <head>
+                         <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+                    </head>
 
+                <div className="the-main-slides">
                 <figure>
                     <img src={Zeugma} />
                     <img src={Naples} />
                     <img src={JC} />
                     <img src={tas} />
                 </figure>
+                </div>
 
+                <div className="second-main-class">
+                <hr/>
+                    <p>In a polite society, a well maintained skincare routine is one of life’s great successes. </p>
+                <hr/>
+                <iframe width="620" height="415"
+                    src="https://www.youtube.com/embed/VnLwQYBmmXM">
+                </iframe>
+                </div>
+
+
+
+<div className="boxes-class">
+
+
+                <div className="first-box">
+
+                        <img id="-second-jc" src={JC} />
+                    <div className="massage-box">
+                            <h1>Massage</h1>
+                            <p>Over time stress builds in our body and can <br/>
+                                leave us feeling run down. A relaxing massage<br/>
+                                 can help elevate this feeling of tension <br/>
+                                 and promote an overall sense of wellbeing.</p>
+                    </div>
+
+                </div>
                 </div>
             </div>
         )

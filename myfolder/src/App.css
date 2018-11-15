@@ -471,3 +471,76 @@ margin-bottom: 50px;
   font-size: 0;
   animation: 20s slider infinite;
 }
+
+
+
+
+
+.second-main-class > p {
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  color: rgb(134, 64, 123);
+ margin-top: 100px;
+}
+
+.second-main-class hr {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  top: 100px;
+  
+}
+
+.second-main-class {
+  margin-top: 100px;
+  /* position: absolute; */
+  /* margin-top: 59%; */
+  /* left: 12%; */
+  top: 200px;
+
+}
+
+
+/* 
+#second-JC {
+  height: 100vh;
+
+} */
+
+.first-box img {
+  height: 350px;
+  width: 350px;
+}
+
+
+.first-box {
+ margin-left: 200px;
+position: relative;
+  top: 100px;
+}
+
+
+.massage-box {
+  background-color: white;
+  width: 300px;
+  text-align: center;
+  
+}
+
+
+.boxes-class {
+  background-color: turquoise;
+  height: 100vh;
+}
+
+
+
+
+.second-main-class iframe {
+  margin-left: 28%;
+  margin-bottom: 100px;
+}
