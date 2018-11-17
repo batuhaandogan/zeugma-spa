@@ -44,13 +44,18 @@ class Main extends Component {
                         <img id="-second-jc" src={JC} />
                     <div className="massage-box">
                             <h1>Massage</h1>
-                            <p>Over time stress builds in our body and can <br/>
-                                leave us feeling run down. A relaxing massage<br/>
-                                 can help elevate this feeling of tension <br/>
-                                 and promote an overall sense of wellbeing.</p>
+                            <p>Over time stress builds in our body and <br/>can 
+                                leave us feeling run down. A relaxing<br/> massage
+                                 can help elevate this feeling of<br/> tension 
+                                 and promote an overall sense of well being.</p>
                     </div>
 
                 </div>
+
+
+                
+
+
                 </div>
             </div>
         )
