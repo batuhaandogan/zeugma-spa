@@ -36,7 +36,7 @@ class Main extends Component {
 
 
 
-<div className="boxes-class">
+{/* <div className="boxes-class">
 
 
                 <div className="first-box">
@@ -65,7 +65,7 @@ class Main extends Component {
                 </div>
 
 
-                </div>
+                </div> */}
             </div>
         )
     }
