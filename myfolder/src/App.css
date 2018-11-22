@@ -483,7 +483,8 @@ margin-bottom: 50px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 1.2rem;
-  color: rgb(134, 64, 123);
+  /* color: rgb(134, 64, 123); */
+  color: #e80a89;
  margin-top: 100px;
 }
 
@@ -519,14 +520,14 @@ margin-bottom: 50px;
 
 
 .first-box {
- margin-left: 200px;
- padding-top: 200px;
+ /* margin-left: 200px;
+ padding-top: 200px; */
 
 
 }
 
 .second-box {
-  margin-left: 600px;
+  /* margin-left: 600px; */
   /* padding-bottom: 500px; */
 
   /* position: absolute; */
@@ -539,7 +540,7 @@ margin-bottom: 50px;
 }
 
 .massage-box {
-  background-color: white;
+  background-color: black;
   margin: 0;
   width: 300px;
   text-align: center;
@@ -573,4 +574,11 @@ margin-bottom: 50px;
 
 .massage-box p {
   color: rgb(107, 106, 106);
+}
+
+
+.flex-this {
+  display: flex;
+  flex-direction: row;
+ justify-content: space-around;
 }
