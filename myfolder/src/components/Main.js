@@ -4,6 +4,9 @@ import Zeugma from '../images/zeugmaandbabor.jpg';
 import Naples from '../images/5thavenue.jpg';
 import JC from '../images/salonbyjc.jpg';
 import tas from '../images/tas.jpg';
+import beauty from '../images/beauty.jpg';
+import amazing from '../images/amazing.jpg';
+import bath from '../images/bath.jpg'
 
 
 
@@ -75,7 +78,7 @@ class Main extends Component {
 
                 <div className="first-box">
 
-<img id="-second-jc" src={JC} />
+<img id="images-id" src={bath} />
 <div className="massage-box">
     <h1>Massage</h1>
     <p>Over time stress builds in our body and <br/>can 
@@ -93,13 +96,13 @@ class Main extends Component {
 
                      <div className="first-box">
 
-<img id="-second-jc" src={JC} />
+<img id="images-id" src={beauty} />
 <div className="massage-box">
-    <h1>Massage</h1>
-    <p>Over time stress builds in our body and <br/>can 
-        leave us feeling run down. A relaxing<br/> massage
-         can help elevate this feeling of<br/> tension 
-         and promote an overall sense of well being.</p>
+    <h1>Beauty</h1>
+    <p>Spa beauty treatments are not only about<br/> relaxation.
+     An elaborate spa therapy session is<br/> also about
+      a holistic experience that  promotes healthy living.
+         </p>
 </div>
 
 </div>
@@ -110,13 +113,15 @@ class Main extends Component {
 
  <div className="first-box">
 
-<img id="-second-jc" src={JC} />
+<img id="images-id" src={amazing} />
 <div className="massage-box">
-    <h1>Massage</h1>
-    <p>Over time stress builds in our body and <br/>can 
-        leave us feeling run down. A relaxing<br/> massage
-         can help elevate this feeling of<br/> tension 
-         and promote an overall sense of well being.</p>
+    <h1>Relaxation</h1>
+    <p>With the busy lives we lead it’s no<br/>
+     wonder we can sometimes find<br/>
+      ourselves feeling stressed. This is<br/>
+       why it’s essential to find a little<br/>
+        ‘me time’ in daily life to keep ourselves feeling good.
+         </p>
 </div>
 
 </div>
