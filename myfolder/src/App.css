@@ -33,7 +33,7 @@
   /* margin-right: 0px; */
   width: 10%;
   text-align: center;
-  background: rgba(112, 206, 40, 0.3);;
+  background: rgba(112, 206, 40, 0.3);
   height: 60%;
   display: flex;
   flex-direction: column;
@@ -515,24 +515,11 @@ margin-bottom: 50px;
 .first-box img {
   height: 350px;
   width: 400px;
+/* box-shadow: #e80a89; */
   /* position: absolute; */
 }
 
 
-.first-box {
- /* margin-left: 200px;
- padding-top: 200px; */
-
-
-}
-
-.second-box {
-  /* margin-left: 600px; */
-  /* padding-bottom: 500px; */
-
-  /* position: absolute; */
-
-}
 
 .second-box img {
   height: 350px;
@@ -540,7 +527,8 @@ margin-bottom: 50px;
 }
 
 .massage-box {
-  background-color: white;
+  /* background-color: white; */
+  
   margin: 0;
   width: 300px;
   text-align: center;
@@ -569,11 +557,16 @@ margin-bottom: 50px;
 .massage-box h1 {
   margin: 0px;
   padding: 0px;
-  font-family: serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 238, 255);
+
 }
 
-.massage-box p {
-  color: rgb(107, 106, 106);
+.massage-box p { 
+  color: rgb(124, 158, 98);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
 }
 
 
@@ -581,8 +574,9 @@ margin-bottom: 50px;
   display: flex;
   flex-direction: row;
  justify-content: space-around;
- background-color: turquoise;
+ background-color: #def6fe;
  height: 100vh;
+ 
 }
 
 .first-box {
@@ -610,3 +604,30 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+
+.scroll-to-treatments {
+  height: 40vh;
+  text-align: center;
+  text-decoration: none;
+  border: 3px solid black;
+  
+}
+
+.scroll-to-treatments h1 {
+  color: turquoise;
+  padding-top: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.the-a-tag {
+  text-decoration: none;
+  color: rgb(235, 232, 232);
+  border: 1px solid rgb(71, 71, 219);
+  background-color: blue;
+  padding: 10px;
+  
+}
+
