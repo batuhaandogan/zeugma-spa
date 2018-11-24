@@ -610,7 +610,7 @@ html, body {
   height: 40vh;
   text-align: center;
   text-decoration: none;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   
 }
 
@@ -619,7 +619,11 @@ html, body {
   padding-top: 100px;
   font-family: 'Courier New', Courier, monospace;
 }
-
+.scroll-to-treatments p {
+  color: turquoise;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
 
 
 .the-a-tag {
@@ -631,3 +635,12 @@ html, body {
   
 }
 
+
+
+.yellow-image img {
+  /* height: 20vh; */
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
