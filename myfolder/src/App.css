@@ -540,7 +540,7 @@ margin-bottom: 50px;
 }
 
 .massage-box {
-  background-color: black;
+  background-color: white;
   margin: 0;
   width: 300px;
   text-align: center;
@@ -581,4 +581,22 @@ margin-bottom: 50px;
   display: flex;
   flex-direction: row;
  justify-content: space-around;
+ background-color: turquoise;
+ height: 80vh;
+}
+
+.first-box {
+  padding-top: 100px;
+}
+
+
+.main-class-for {
+  width: 100vw;
+
+}
+
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }

@@ -11,7 +11,7 @@ class Main extends Component {
     render() {
         return (
             
-            <div>
+            <div className="main-class-for">
                   <head>
                          <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
                     </head>
