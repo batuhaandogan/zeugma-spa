@@ -12,7 +12,7 @@ import one from '../images/one.png';
 import two from '../images/two.png';
 import tree from '../images/tree.png';
 import four from '../images/four.png';
-
+import fivestar from '../images/fivestar.png';
 
 class Main extends Component {
     render() {
@@ -46,6 +46,7 @@ class Main extends Component {
                         <img id="comment-two" src={two} />
                         <img id="comment-tree" src={tree} /><br/>
                         <img id="comment-four" src={four} />
+                        <img id="comment-star" src={fivestar} />
                 </div>
 
 
