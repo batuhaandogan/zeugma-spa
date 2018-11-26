@@ -644,3 +644,24 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+
+#comment-one {
+  margin-bottom: 50px;
+  margin-left: 55px;
+}
+
+
+#comment-two {
+  margin-left: 50%;
+}
+
+#comment-tree {
+  margin-left: 55px;
+  margin-top: 50px;
+}
+
+#comment-four {
+  margin-left: 50%;
+  margin-top: 50px;
+}

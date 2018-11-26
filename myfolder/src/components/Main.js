@@ -8,7 +8,10 @@ import beauty from '../images/beauty.jpg';
 import amazing from '../images/amazing.jpg';
 import bath from '../images/bath.jpg';
 import yellow from '../images/yellow.jpg';
-
+import one from '../images/one.png';
+import two from '../images/two.png';
+import tree from '../images/tree.png';
+import four from '../images/four.png';
 
 
 class Main extends Component {
@@ -36,6 +39,16 @@ class Main extends Component {
                 <iframe width="620" height="415"
                     src="https://www.youtube.com/embed/VnLwQYBmmXM">
                 </iframe>
+
+
+                <div>
+                        <img id="comment-one" src={one} /><br/>
+                        <img id="comment-two" src={two} />
+                        <img id="comment-tree" src={tree} /><br/>
+                        <img id="comment-four" src={four} />
+                </div>
+
+
                 </div>
 
 
