@@ -53,7 +53,13 @@ class Main extends Component {
                 </div>
 
 
-
+<div>
+    <div>
+        <p>
+            <h1>this is the main sections section</h1>
+        </p>
+    </div>
+</div>
 {/* <div className="boxes-class">
 
 
