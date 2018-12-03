@@ -41,12 +41,12 @@ class Main extends Component {
                 </iframe>
 
 
-                <div>
+                <div className="the-comments-together">
                         <img id="comment-one" src={one} /><br/>
                         <img id="comment-two" src={two} />
                         <img id="comment-tree" src={tree} /><br/>
                         <img id="comment-four" src={four} />
-                        <img id="comment-star" src={fivestar} />
+                        {/* <img id="comment-star" src={fivestar} /> */}
                 </div>
 
 

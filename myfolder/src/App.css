@@ -672,3 +672,11 @@ html, body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+
+.the-comments-together {
+  background-color: rgb(198, 226, 119);
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
