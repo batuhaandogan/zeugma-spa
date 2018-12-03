@@ -312,7 +312,7 @@ margin-bottom: 50px;
    background-color: rgb(230, 227, 227);
    height: 100%;
    width: 100%;
-   position: absolute;
+   /* position: absolute; */
    margin-top: 1200px;
 }
 
@@ -679,4 +679,9 @@ html, body {
   padding: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+
+.massage-treatments {
+  /* background-color: black; */
 }
