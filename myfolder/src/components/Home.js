@@ -220,7 +220,7 @@ class Home extends Component {
                     </div>
 
  
-                        <div>
+                        {/* <div>
 
                         <div className="massage-treatments">
                             <h1>Massage Treatments</h1>
@@ -228,7 +228,7 @@ class Home extends Component {
 
 
 
-                        </div>   
+                        </div>    */}
 
 
 {/* 
